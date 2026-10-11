@@ -1,0 +1,27 @@
+deploy.md
+.agent_engine_config.json
+.venv/
+.lock
+
+.venv/
+.lock
+
+__pycache__/
+*.py[cod]
+
+.langgraph_api/
+
+.ipynb_checkpoints/
+
+.env
+.env.*
+!.env.example
+
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Herramientas de IA / asistentes
+.claude/
+.archify/

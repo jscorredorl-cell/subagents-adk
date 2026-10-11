@@ -1,0 +1,9 @@
+{
+    "display_name": "Subagents",
+    "description": "Responde preguntas de ventas y finanzas delegando en dos analistas especializados",
+    "service_account": "<service-account>@<tu-proyecto>.iam.gserviceaccount.com",
+    "env_vars": {
+        "GOOGLE_CLOUD_AGENT_ENGINE_ENABLE_TELEMETRY": "true",
+        "OTEL_INSTRUMENTATION_GENAI_CAPTURE_MESSAGE_CONTENT": "true"
+    }
+}
